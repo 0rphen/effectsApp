@@ -1,0 +1,19 @@
+[23:47:10.299] Global cache location '/home/orphen/.cache/typescript/3.5', safe file path '/home/orphen/Programación/JavaScript/http-effects/node_modules/typescript/lib/typingSafeList.json', types map path /home/orphen/Programación/JavaScript/http-effects/node_modules/typescript/lib/typesMap.json
+[23:47:10.300] Processing cache location '/home/orphen/.cache/typescript/3.5'
+[23:47:10.300] Trying to find '/home/orphen/.cache/typescript/3.5/package.json'...
+[23:47:10.301] Loaded content of '/home/orphen/.cache/typescript/3.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.462"}}
+[23:47:10.301] Loaded content of '/home/orphen/.cache/typescript/3.5/package-lock.json'
+[23:47:10.301] Finished processing cache location '/home/orphen/.cache/typescript/3.5'
+[23:47:10.301] Process id: 26385
+[23:47:10.301] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[23:47:10.301] validateDefaultNpmLocation: false
+[23:47:10.302] Npm config file: /home/orphen/.cache/typescript/3.5/package.json
+[23:47:10.302] Updating types-registry npm package...
+[23:47:10.302] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[23:47:12.987]     Succeeded. stdout:
+    + types-registry@0.1.462
+    updated 1 package and audited 1 package in 2.26s
+found 0 vulnerabilities
+
+
+[23:47:12.988] Updated types-registry npm package
