@@ -1,0 +1,31 @@
+[23:28:54.653] Global cache location '/home/orphen/.cache/typescript/3.5', safe file path '/home/orphen/Programación/JavaScript/http-effects/node_modules/typescript/lib/typingSafeList.json', types map path /home/orphen/Programación/JavaScript/http-effects/node_modules/typescript/lib/typesMap.json
+[23:28:54.655] Processing cache location '/home/orphen/.cache/typescript/3.5'
+[23:28:54.655] Trying to find '/home/orphen/.cache/typescript/3.5/package.json'...
+[23:28:54.656] Loaded content of '/home/orphen/.cache/typescript/3.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.462"}}
+[23:28:54.656] Loaded content of '/home/orphen/.cache/typescript/3.5/package-lock.json'
+[23:28:54.656] Finished processing cache location '/home/orphen/.cache/typescript/3.5'
+[23:28:54.657] Process id: 8851
+[23:28:54.657] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[23:28:54.657] validateDefaultNpmLocation: false
+[23:28:54.657] Npm config file: /home/orphen/.cache/typescript/3.5/package.json
+[23:28:54.657] Updating types-registry npm package...
+[23:28:54.657] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[23:28:56.977]     Succeeded. stdout:
+    + types-registry@0.1.462
+    updated 1 package and audited 1 package in 1.565s
+found 0 vulnerabilities
+
+
+[23:28:56.978] Updated types-registry npm package
+[23:49:0.628] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/orphen/Programación/JavaScript/http-effects/src/app/store/reducers","kind":"discover"}
+[23:49:0.668] Loaded safelist from types map file '/home/orphen/Programación/JavaScript/http-effects/node_modules/typescript/lib/typesMap.json'
+[23:49:0.669] Explicitly included types: []
+[23:49:0.671] Inferred typings from unresolved imports: []
+[23:49:0.671] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/orphen/Programación/JavaScript/http-effects/src/app/store/reducers/bower_components","/home/orphen/Programación/JavaScript/http-effects/src/app/store/reducers/node_modules"]}
+[23:49:0.671] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/orphen/Programación/JavaScript/http-effects/src/app/store/reducers/bower_components","/home/orphen/Programación/JavaScript/http-effects/src/app/store/reducers/node_modules"]}
+[23:49:0.672] DirectoryWatcher:: Added:: WatchInfo: /home/orphen/Programación/JavaScript/http-effects/src/app/store/reducers/bower_components
+[23:49:0.675] DirectoryWatcher:: Added:: WatchInfo: /home/orphen/Programación/JavaScript/http-effects/src/app/store/reducers/node_modules
+[23:49:0.676] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[23:49:0.677] Response has been sent.
+[23:49:0.677] No new typings were requested as a result of typings discovery
